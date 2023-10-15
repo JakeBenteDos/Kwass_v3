@@ -1,0 +1,167 @@
+body{
+    
+}
+
+main{
+    align-self: center;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 200px;
+    border: 5px solid black;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+button#Oo{
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+button#Oo:hover{
+    color: white;
+    background-color: green;
+}
+button#hindi{
+    color: rgb(117, 6, 6);
+    border: 1px solid rgb(117, 6, 6);
+    border-radius: 5px;
+}
+button#hindi:hover{
+    color: white;
+    border: 1px solid rgb(117, 6, 6);
+    background-color: rgb(117, 6, 6);
+    border-radius: 5px;
+}
+#hindi{
+    position: relative;
+    left: 0%;
+    right: 0%;
+}
+#ifThreeVid{
+    position: absolute; 
+    margin-top: -600px;
+    margin-left: 500px;
+    z-index: -10;
+}
+#ifFourVid{
+    position: absolute; 
+    margin-top: 500px;
+    margin-left: 500px;
+    z-index: -9;
+}
+#ifFiveimg{
+    position: absolute; 
+    margin-top: 700px;
+    margin-right: 400px;
+    z-index: -8;
+}
+#ifSiximg{
+    position: absolute; 
+    margin-top: -500px;
+    margin-right: 300px;
+    z-index: -7;
+}
+#ifSevenimg{
+    position: absolute; 
+    margin-top: -400px;
+    margin-right: -200px;
+    z-index: -6;
+}
+#ifEightVid{
+    position: absolute; 
+    margin-top: 700px;
+    margin-right: -100px;
+    z-index: -6;
+}
+#ifNineVid{
+    position: absolute; 
+    margin-top: 400px;
+    margin-right: 300px;
+    z-index: -5;
+}
+#ifTenVid{
+    position: absolute; 
+    margin-top: -800px;
+    margin-right: 0px;
+    z-index: -11;
+}
+img#hand{
+    position: absolute;
+    margin-left: -50px;
+    z-index: 2;
+    
+    width:50px;
+    height:30px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .container{
+        width: 90%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        
+    }
+    h1{
+        font-size: 20px;
+    }
+    button{
+        font-size: 11px;
+    }
+    #ifThreeVid{
+        margin-top: -250px;
+        margin-left: 230px;
+    }
+    #ifFourVid{
+        margin-top: 300px;
+        margin-left: 200px;
+    }
+    #ifFiveimg{
+        margin-top: 700px;
+        margin-right: 200px;
+    }
+    #ifSiximg{
+        margin-top: -200px;
+        margin-right: 250px;
+    }
+    #ifSevenimg{
+        margin-top: -600px;
+        margin-right: -200px;
+    }
+    #ifEightVid{
+        margin-top: 700px;
+        margin-right: -200px;
+    }
+    #ifNineVid{
+        margin-top: 300px;
+        margin-right: 300px;
+    }
+    #ifTenVid{
+        margin-top: -700px;
+        margin-right: 200px;
+    }
+}
